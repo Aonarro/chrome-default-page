@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #1e1d1e;
+	color: #414041;
+	font-family: 'JetBrains Mono', monospace;
+}
+
+.wrapper {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.timer-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+
+.seconds-wrapper {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+#age {
+	margin-bottom: -20px;
+	font-size: 25px;
+	color: #bdbdbd;
+	font-weight: 400;
+}
+
+#years {
+	font-weight: 700;
+	font-size: 90px;
+}
+
+#seconds {
+	font-weight: 600;
+	font-size: 38px;
+}
+
+#milli-seconds {
+	font-weight: 600;
+	font-size: 38px;
+}
